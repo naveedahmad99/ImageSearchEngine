@@ -47,6 +47,7 @@ dependencies {
     def dagger_version = "2.24"
     def material_version = "1.0.0"
     def nav_version = "2.1.0"
+    def rxJava_version = "2.2.12"
 
 
     def arch_version = '2.1.0'
@@ -109,9 +110,7 @@ dependencies {
 
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 
-//    def rxJava_version = "2.2.12"
-//    //rxJava it will be used later in another branch
-//    implementation "io.reactivex.rxjava2:rxjava:$rxJava_version"
+    implementation "io.reactivex.rxjava2:rxjava:$rxJava_version"
 //
 //    //RxJava Adapter for adapting RxJava "Retrofit call Adapter"
 //    implementation "com.squareup.retrofit2:adapter-rxjava2:$retrofit_version"
