@@ -6,7 +6,6 @@
     <data>
 
         <import type="com.payback.models.Photo" />
-
         <variable
             name="photo"
             type="Photo" />
@@ -115,7 +114,6 @@
 
                     </RelativeLayout>
                 </LinearLayout>
-
                 <ProgressBar
                     android:id="@+id/progress_bar"
                     style="?android:attr/progressBarStyle"

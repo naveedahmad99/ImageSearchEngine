@@ -3,6 +3,7 @@ package com.payback.binding
 import android.view.View
 import android.widget.ImageView
 import androidx.databinding.BindingAdapter
+import com.bumptech.glide.Glide
 import com.payback.R
 
 /**

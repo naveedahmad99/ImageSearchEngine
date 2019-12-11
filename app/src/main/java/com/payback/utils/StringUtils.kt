@@ -1,6 +1,7 @@
 package com.payback.utils
 
 import android.annotation.SuppressLint
+import android.text.TextUtils
 
 object StringUtils {
     @SuppressLint("DefaultLocale")
@@ -31,7 +32,6 @@ object StringUtils {
     fun getLikesAsString(likes: Int): String {
         return likes.toString()
     }
-
     @JvmStatic
     fun getFavoritesAsString(favorites: Int): String {
         return favorites.toString()

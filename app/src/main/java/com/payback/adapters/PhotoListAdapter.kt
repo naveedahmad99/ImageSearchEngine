@@ -1,6 +1,8 @@
 package com.payback.adapters
 
+import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.DiffUtil
 import com.payback.AppExecutors
 import com.payback.R
