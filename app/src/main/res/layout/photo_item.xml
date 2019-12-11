@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <variable
             name="photo"
             type="com.payback.models.Photo" />
-
         <import type="com.payback.utils.StringUtils" />
     </data>
 
