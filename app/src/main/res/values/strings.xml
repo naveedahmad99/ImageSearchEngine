@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Image Search Engine</string>
+    <string name="app_name">ImageSearchEngine</string>
     <string name="retry">Retry</string>
     <string name="unknown_error">Unknown Error</string>
     <string name="image_description">Image description</string>
