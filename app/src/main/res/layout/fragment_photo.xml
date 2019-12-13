@@ -34,7 +34,7 @@
 
                     <TextView
                         android:id="@+id/photo_fragment_title"
-                        style="@style/PixabayImageTextUser"
+                        style="@style/PayBackImageTextUser"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text='@{photo != null ? StringUtils.getTags(photo.tags) : ""}'
@@ -68,7 +68,7 @@
 
                     <TextView
                         android:id="@+id/photo_fragment_tags"
-                        style="@style/PixabayImageTextUser"
+                        style="@style/PayBackImageTextUser"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text='@{photo != null ? StringUtils.getTags(photo.tags) : ""}'
@@ -76,7 +76,7 @@
 
                     <TextView
                         android:id="@+id/photo_fragment_user_name"
-                        style="@style/PixabayImageTextUser"
+                        style="@style/PayBackImageTextUser"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text='@{photo != null ? StringUtils.byUser(photo.userName) : ""}'
@@ -89,7 +89,7 @@
 
                         <TextView
                             android:id="@+id/photo_fragment_comments"
-                            style="@style/PixabayImageTextUser"
+                            style="@style/PayBackImageTextUser"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_alignParentEnd="true"
@@ -100,7 +100,7 @@
 
                         <TextView
                             android:id="@+id/photo_fragment_favorites"
-                            style="@style/PixabayImageTextUser"
+                            style="@style/PayBackImageTextUser"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="4dp"
@@ -111,7 +111,7 @@
 
                         <TextView
                             android:id="@+id/photo_fragment_likes"
-                            style="@style/PixabayImageTextUser"
+                            style="@style/PayBackImageTextUser"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginEnd="4dp"

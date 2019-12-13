@@ -3,8 +3,6 @@ package com.payback.repository
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.Observer
-import com.mustafa.pixabay.util.TestUtil
-import com.mustafa.pixabay.util.mock
 import com.payback.api.ApiResponse
 import com.payback.api.PhotoSearchResponse
 import com.payback.api.PixBayService
@@ -14,6 +12,8 @@ import com.payback.models.Photo
 import com.payback.models.PhotoSearchResult
 import com.payback.models.Resource
 import com.payback.util.InstantAppExecutors
+import com.payback.util.TestUtil
+import com.payback.util.mock
 import com.payback.utils.Constants
 import org.junit.Before
 import org.junit.Rule

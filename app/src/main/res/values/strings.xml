@@ -1,11 +1,8 @@
 <resources>
-    <string name="app_name">Image Search Engine</string>
+    <string name="app_name">ImageSearchEngine</string>
     <string name="retry">Retry</string>
     <string name="unknown_error">Unknown Error</string>
-    <string name="empty_search_result">No results for <b>%s</b></string>
-    <string name="dialog_message">Would you like to see more details?</string>
-    <string name="ok">OK</string>
-    <string name="cancel">Cancel</string>
     <string name="image_description">Image description</string>
+    <string name="empty_search_result">No results for <b>%s</b></string>
     <string name="search_photo">Search photo…</string>
 </resources>

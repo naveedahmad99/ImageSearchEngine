@@ -45,7 +45,7 @@ class MainActivityTest {
                 isDisplayed()
             )
         )
-        Thread.sleep(8000)
+        Thread.sleep(5000)
         cardView.perform(click())
 
         Thread.sleep(3000)
