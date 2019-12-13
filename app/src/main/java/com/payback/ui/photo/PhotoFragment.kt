@@ -49,8 +49,6 @@ class PhotoFragment : Fragment(), Injectable {
             viewModelFactory
         ).get(PhotoViewModel::class.java)
 
-        photoViewModel.setId(params.photoId)
-//        photoViewModel.photo.removeObservers(viewLifecycleOwner)
         photoViewModel.photo.observe(viewLifecycleOwner, Observer {
 
             if (it != null) {
@@ -58,6 +56,8 @@ class PhotoFragment : Fragment(), Injectable {
             }
 
         })
+
+        photoViewModel.setId(params.photoId)
     }
 
 }
