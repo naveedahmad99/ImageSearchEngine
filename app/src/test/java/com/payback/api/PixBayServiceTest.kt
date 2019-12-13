@@ -3,7 +3,7 @@
 package com.payback.api
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
-import com.mustafa.pixabay.util.LiveDataTestUtil.getValue
+import com.payback.util.LiveDataTestUtil.getValue
 import com.payback.utils.Constants
 import com.payback.utils.LiveDataCallAdapterFactory
 import okhttp3.mockwebserver.MockResponse

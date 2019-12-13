@@ -41,10 +41,10 @@ class PhotoFragment : Fragment(), Injectable {
 
     }
 
-    fun init() {
-        binding.toolbar.setNavigationOnClickListener(View.OnClickListener {
+    private fun init() {
+        binding.toolbar.setNavigationOnClickListener {
             activity!!.onBackPressed()
-        })
+        }
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {

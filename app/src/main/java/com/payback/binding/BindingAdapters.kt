@@ -29,6 +29,7 @@ object BindingAdapters {
         Glide.with(imageView.context)
             .load(url)
             .placeholder(circularProgressDrawable)
+            .centerCrop()
             .into(imageView)
     }
 }
