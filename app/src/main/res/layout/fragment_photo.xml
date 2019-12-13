@@ -29,7 +29,16 @@
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    app:navigationIcon="@drawable/ic_back"
                     app:layout_scrollFlags="scroll|enterAlways">
+
+                    <TextView
+                        android:id="@+id/photo_fragment_title"
+                        style="@style/PixabayImageTextUser"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text='@{photo != null ? StringUtils.getTags(photo.tags) : ""}'
+                        tools:text="TEST - TEST - TEST" />
 
                 </androidx.appcompat.widget.Toolbar>
 
@@ -71,7 +80,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text='@{photo != null ? StringUtils.byUser(photo.userName) : ""}'
-                        tools:text="By: Mustafa" />
+                        tools:text="By: Naveed" />
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
