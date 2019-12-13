@@ -15,6 +15,7 @@ import com.payback.di.Injectable
 import com.payback.utils.autoCleared
 import javax.inject.Inject
 
+
 class PhotoFragment : Fragment(), Injectable {
 
     @Inject
@@ -36,14 +37,20 @@ class PhotoFragment : Fragment(), Injectable {
             container,
             false
         )
-//        binding = dataBinding
         return binding.root
 
+    }
+
+    fun init() {
+        binding.toolbar.setNavigationOnClickListener(View.OnClickListener {
+            activity!!.onBackPressed()
+        })
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         val params = PhotoFragmentArgs.fromBundle(arguments!!)
 
+        init()
         photoViewModel = ViewModelProviders.of(
             this,
             viewModelFactory
@@ -59,5 +66,4 @@ class PhotoFragment : Fragment(), Injectable {
 
         photoViewModel.setId(params.photoId)
     }
-
 }
