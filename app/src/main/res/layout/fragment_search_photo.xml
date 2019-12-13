@@ -48,7 +48,7 @@
                 <androidx.appcompat.widget.Toolbar
                     android:id="@+id/toolbar"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="?actionBarSize"
                     app:layout_scrollFlags="scroll|enterAlways">
 
                     <androidx.appcompat.widget.SearchView
@@ -56,7 +56,6 @@
                         android:layout_width="match_parent"
                         android:layout_height="?attr/actionBarSize"
                         app:queryHint="@string/search_photo">
-
                     </androidx.appcompat.widget.SearchView>
 
                 </androidx.appcompat.widget.Toolbar>
