@@ -1,5 +1,6 @@
 # ImageSearchEngine
 Android Image Search Engine app that show the images associated with the serach text provided by the user
+![](prview.gif)
 
 ## Demo Apk: 
 https://drive.google.com/open?id=1KIY-gf0zfrE_TeupHKqr2g8UcZKRps91
