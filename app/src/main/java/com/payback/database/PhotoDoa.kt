@@ -32,6 +32,9 @@ abstract class PhotoDoa {
     @Query(" SELECT * FROM Photo WHERE id = :id")
     abstract fun getPhotoById(id: Int): LiveData<Photo>
 
+    @Query(" SELECT * FROM Photo WHERE id = :id")
+    abstract fun getPhotoObjectById(id: Int): Photo
+
     fun loadOrdered(photoIds: List<Int>): LiveData<List<Photo>> {
         val order =
             SparseArrayCompat<Int>() // SparseIntArray can be used .. but it would need mocking
